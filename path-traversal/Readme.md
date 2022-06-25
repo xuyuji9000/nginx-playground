@@ -10,6 +10,12 @@ This folder documents the learning about nginx path traversal.
     curl localhost:8080
     ```
 
+2. `exec` into the running container 
+
+    ``` shell
+    podman exec -it CONTAINER_NAME /bin/bash
+    ```
+
 # Reference
 
 - [nginx](https://hub.docker.com/_/nginx)
